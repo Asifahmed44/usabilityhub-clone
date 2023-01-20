@@ -274,7 +274,7 @@ header {
   min-height: 300px;
   background: black;
   background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0.8)),
-    url(./Assets/asset\ 36.jpeg);
+    url(./assets/asset\ 36.jpeg);
   transition: 0.2s ease-out;
 }
 
