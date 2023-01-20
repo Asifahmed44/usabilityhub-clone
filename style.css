@@ -290,10 +290,35 @@ header {
   color: white;
 }
 
-/* cta section */
 
-.cta-section {
-  background-color: #183b54;
+/* cta section 1 */
+
+
+
+
+
+/* cta section 1  ends*/
+
+
+/* cta section 2 */
+
+.cta-section-2 {
+  
+  background-color: #fff;
   color: #fff;
   padding: 120px var(--padding-inline-section) 80px;
+  align-items: center;
+  justify-content: center;
 }
+
+.cta-content-2 h2{
+  color: #183b54;
+}
+
+.cta-content-2{
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+/* cta section 2 ends */
