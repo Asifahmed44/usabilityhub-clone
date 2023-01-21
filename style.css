@@ -320,8 +320,12 @@ header {
 }
 
 .cta-content-right{
+  /* background-image: url(./assets/asset\ 40.png); */
+  /* background-color: red; */
+  flex-basis: 700px;
   position: relative;
-  top: -40px
+   top: -40px;
+  
 }
 
 .cta-content-right img:nth-child(1){
@@ -334,7 +338,7 @@ header {
 }
 
 .cta-section-1 h5{
-  margin-bottom: 35px; 
+  margin-bottom: 10px; 
 }
 
 .cta-pricing{
@@ -346,9 +350,9 @@ header {
 
 .text-container-pricing{
   position: absolute;
-    top: 155px;
+    top: 34%;
     color: black;
-    left: 195px;
+    left: 44%;
 }    
 
  .text-container-pricing p{
