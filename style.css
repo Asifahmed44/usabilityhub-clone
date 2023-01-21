@@ -296,7 +296,7 @@ header {
 
 .cta-section-1{
   background-color: #183b54;
-  padding-block: 90px;
+  padding-block: 70px;
 }
 
 .cta-content-more-details{
@@ -306,6 +306,7 @@ header {
 
 .cta-content-left ul, .cta-content-left p{
   color: #b9cde4;
+  margin-bottom: 10px;
 }
 
 .cta-content-left ul{
@@ -320,10 +321,11 @@ header {
 
 .cta-content-right{
   position: relative;
+  top: -40px
 }
 
 .cta-content-right img:nth-child(1){
-  width: 100%;
+  width: 115%;
 }
 
 .cta-section-1 .primary-button{
@@ -337,16 +339,16 @@ header {
 
 .cta-pricing{
   position: absolute;
-  left: 107px;
-  top: 95px;
-  width: 49%;
+    left: 130px;
+    top: 110px;
+    width: 55%;
 }
 
 .text-container-pricing{
   position: absolute;
-  top: 140px;
-  color: black;
-  left: 150px;
+    top: 155px;
+    color: black;
+    left: 195px;
 }    
 
  .text-container-pricing p{
