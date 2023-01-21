@@ -262,6 +262,7 @@ header {
 
 .examples-header {
   text-align: center;
+  margin-block: 50px;
 }
 
 .examples-heading-text {
@@ -292,6 +293,83 @@ header {
 
 
 /* cta section 1 */
+
+.cta-section-1{
+  background-color: #183b54;
+  padding-block: 90px;
+}
+
+.cta-content-more-details{
+  margin-bottom: 30px;
+  gap: 30px;
+}
+
+.cta-content-left ul, .cta-content-left p{
+  color: #b9cde4;
+}
+
+.cta-content-left ul{
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.cta-content-left ul li{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.cta-content-right{
+  position: relative;
+}
+
+.cta-content-right img:nth-child(1){
+  width: 100%;
+}
+
+.cta-section-1 .primary-button{
+  border-radius: 0;
+  font-weight: 100;
+}
+
+.cta-section-1 h5{
+  margin-bottom: 35px; 
+}
+
+.cta-pricing{
+  position: absolute;
+  left: 107px;
+  top: 95px;
+  width: 49%;
+}
+
+.text-container-pricing{
+  position: absolute;
+  top: 140px;
+  color: black;
+  left: 150px;
+}    
+
+ .text-container-pricing p{
+ 
+  color:#8ba6c0;
+  font-weight: 600;
+  font-size: 1.15rem;
+    line-height: 1.8rem;
+} 
+
+.text-container-pricing .cost{
+  top: 10px;
+  color: #2294ed;
+  font-size: 56px;
+  line-height: 36px;
+  font-weight: 600;
+  position: relative;
+}
+
+/* .text-container-pricing h5{
+  margin-bottom: 0px;
+  #8ba6c0
+} */
 
 
 
