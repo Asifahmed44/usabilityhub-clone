@@ -444,3 +444,40 @@ justify-content: space-evenly;
 }
 
 /* subfooter ends */
+
+/* about footer starts */
+
+.about-footer{
+  background-color: #b9cde4;
+  color: #333333;
+  justify-content: center;
+    align-items: center;
+}
+
+.about-footer-content h6{
+  color:#183b56;
+  margin-right: 25px;
+  
+}
+
+.about-footer-content a{
+  color:#183b56;
+  vertical-align: sub;
+}
+
+.about-footer-icons {
+  margin-left: 80px;
+}
+
+.about-footer-icons img{
+  margin-right: 20px;
+  width: 20px;
+}
+
+
+.about-footer-content h6:hover,  .about-footer-content a:hover{
+color: #2294ed;
+}
+
+
+/* about footer ends */
