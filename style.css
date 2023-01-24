@@ -127,6 +127,9 @@ ul {
 
 .nav-links ul {
   gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .company-logo img {
@@ -345,9 +348,10 @@ header {
 .cta-content-right{
   /* background-image: url(./assets/asset\ 40.png); */
   /* background-color: red; */
-  flex-basis: 700px;
-  position: relative;
-   top: -40px;
+  flex-basis: 620px;
+    position: relative;
+    top: -20px;
+    left: -45px;
   
 }
 
@@ -366,8 +370,8 @@ header {
 
 .cta-pricing{
   position: absolute;
-    left: 130px;
-    top: 110px;
+    left: 115px;
+    top: 93px;
     width: 55%;
 }
 
@@ -507,17 +511,13 @@ color: #2294ed;
 /* about footer ends */
 
 @media screen and (max-width:991px){
- .container{
-  /* background-color:  yellow; */
-  /* overflow: hidden; */
- }
-
+ 
  h1 {
   font-size: 2rem;
 }
 
-p{
-  font-size: 1.1rem;
+p {
+  font-size: 1rem;
 }
 
  #hamburger-menu{
@@ -526,7 +526,15 @@ p{
  }
 
  .nav-links{
-  display: none;
+  display: flex;
+  position: relative;
+ }
+
+ .nav-links ul{
+  display: flex;
+  position: absolute;
+  background: yellow;
+  width: 100%;
  }
 
  /* .header-right img {
@@ -539,6 +547,35 @@ p{
 .examples-card {
   width: calc(50% - 20px);
   height: 180px;
+}
+
+.cta-content-right {
+  /* background-image: url(./assets/asset\ 40.png); */
+  /* background-color: red; */
+  /* flex-basis: 700px; */
+  position: relative;
+  top: 25px;
+  left: -16px;
+}
+
+.text-container-pricing {
+  position: absolute;
+  top: 22%;
+  color: black;
+  left: 44%;
+}
+
+
+.text-container-pricing p, 
+.text-container-pricing h5{
+  font-size: 1.1rem;
+}
+
+.cta-pricing {
+  position: absolute;
+  left: 96px;
+  top: 74px;
+  width: 59%;
 }
 
 }
@@ -610,18 +647,41 @@ p{
   margin-top: 40px;
 }
 
-.cta-pricing{
-  position: absolute;
-  left: 200px;
-  top: 200px;
-  width: 48%;
+.cta-content-right {
+  /* background-image: url(./assets/asset\ 40.png); */
+  /* background-color: red; */
+  /* flex-basis: 700px; */
+  position: relative;
+  /* top: 12px; */
+  left: -30px;
 }
+
+/* .cta-pricing {
+  position: absolute;
+  left: 108px;
+  top: 88px;
+  width: 55%;
+} */
+
+/* .text-container-pricing {
+  position: absolute;
+  top: 24%;
+  color: black;
+  left: 41%;
+} */
 
 .text-container-pricing{
   position: absolute;
-    top: 39%;
+    top: 41%;
     color: black;
     left: 39%;
+}
+
+.cta-pricing{
+  position: absolute;
+    left: 200px;
+    top: 200px;
+    width: 48%;
 }
 
 .text-container-pricing h5 {
@@ -724,6 +784,7 @@ p{
   /* background-color: red; */
   flex-basis: 500px;
   position: relative;
+  left: 1px;
   /* top: -40px; */
 }
 
@@ -743,9 +804,15 @@ justify-content: center;
 
 .text-container-pricing {
 position: absolute;
-top: 30%;
+top: 32%;
 color: black;
 left: 37%;
+}
+
+.about-footer-content h6 {
+  color: #183b56;
+  margin-right: 8px;
+  font-size: 13px;
 }
 }
 
