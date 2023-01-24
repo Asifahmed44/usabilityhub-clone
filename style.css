@@ -526,15 +526,16 @@ p {
  }
 
  .nav-links{
-  display: flex;
-  position: relative;
+  display: none;
+  /* display: flex;
+  position: relative; */
  }
 
  .nav-links ul{
-  display: flex;
+  /* display: flex;
   position: absolute;
   background: yellow;
-  width: 100%;
+  width: 100%; */
  }
 
  /* .header-right img {
