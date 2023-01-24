@@ -525,17 +525,59 @@ p {
   font-size: 20px;
  }
 
- .nav-links{
-  display: none;
-  /* display: flex;
-  position: relative; */
+ .container{
+  overflow: visible;
  }
 
- .nav-links ul{
+ .main-nav{
+  position: relative;
+ }
+
+ .nav-links{
+  /* display: none; */
+  /* display: flex;
+  position: relative; */
+
+
+/* toggling properties */
+/* background: yellow; */
+
+position: absolute;
+    width: 101%;
+    height: 100%;
+    top: 40px;
+    left: -100%;
+
+ }
+
+ .nav-links ul li{
   /* display: flex;
   position: absolute;
   background: yellow;
   width: 100%; */
+
+  font-size: 20px;
+    font-weight: 600;
+ }
+
+ .activated{
+  gap: 30px;
+    padding-block: 50px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    flex-direction: column;
+    background: #fff;
+    left: 0px;
+ }
+
+ .nav-links ul{
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
  }
 
  /* .header-right img {

@@ -27,7 +27,7 @@
             <img src="./assets/asset 1.png" alt="Logo" class="mt-2"/>
         </a>
         <div class="nav-links mt-3">
-            <ul class="">
+            <ul class="nav-links-ul">
                 <li><a href="#" class="hover-link">Products</a></li>
                 <li><a href="#" class="hover-link">Customer</a></li>
                 <li><a href="#" class="hover-link">Pricing</a></li>
@@ -370,5 +370,14 @@
         </div>
     </section>
 </body>
+<script>
+    let togglebtn = document.getElementById("hamburger-menu");
+    let menubar = document.querySelector(".nav-links");
 
+    togglebtn.addEventListener('click',()=>{
+        console.log(togglebtn,menubar)
+        menubar.classList.toggle('activated');
+        console.log('clicked')
+    })
+</script>
 </html>
