@@ -692,4 +692,38 @@ p{
   max-width: calc(100% - 20px);
   text-align: center;
 }
+
+.cta-pricing{
+  position: absolute;
+    left: 104px;
+    top: 128px;
+    width: 50%;
+}
+
+.text-container-pricing {
+  position: absolute;
+  top: 32%;
+  color: black;
+  left: 36%;
+}
+
+.text-container-pricing h5 {
+  font-size: 1.2rem;
+}
+
+.text-container-pricing p {
+  font-size: 1rem;
+}
+
+.cta-section-2{
+  padding-block: 35px;
+}
+
+.cta-content-right {
+  /* background-image: url(./assets/asset\ 40.png); */
+  /* background-color: red; */
+  flex-basis: 500px;
+  position: relative;
+  /* top: -40px; */
+}
 }
